@@ -10,4 +10,7 @@ class HeadersTool(metaclass=ABCMeta):
         """计算 post 中 data 的长度"""
         pass
 
-
+    @abstractmethod
+    def user_agent(self):
+        """随机 user-agent """
+        pass
