@@ -7,10 +7,6 @@ from box import Box
 
 
 class Headers(HeadersTool):
-
-    def __init__(self):
-        ...
-
     @staticmethod
     def content_length(data: Dict):
         """计算 data 长度"""
